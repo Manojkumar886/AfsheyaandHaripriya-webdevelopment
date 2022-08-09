@@ -15,8 +15,9 @@ public class Variables
 		int a=10;//global or instance avriable
 		System.out.println("a value is "+a);
 		Variables obj=new Variables();//Object creation
-		obj.task();
+	
 		System.out.println("my static name is "+name);
+		obj.task();
 	}
 
 }
