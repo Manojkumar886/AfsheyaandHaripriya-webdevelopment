@@ -4,7 +4,7 @@ public class DefConstructor
 {
 	int age;
 	String name;
-	public DefConstructor()//Def-Constructor
+	public void DefConstructor()//Def-Constructor
 	{
 		System.out.println("My age is"+age);
 		System.out.println("My name is"+name);

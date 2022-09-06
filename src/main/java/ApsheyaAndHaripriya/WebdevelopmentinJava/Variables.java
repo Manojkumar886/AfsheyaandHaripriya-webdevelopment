@@ -4,6 +4,7 @@ public class Variables
 {
 	static String name="Manojkumar";//Static variable
 	
+	
 	public void task()
 	{
 		char class1='A';///local variable

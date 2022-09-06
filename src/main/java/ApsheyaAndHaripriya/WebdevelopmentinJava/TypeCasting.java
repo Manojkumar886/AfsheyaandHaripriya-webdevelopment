@@ -12,8 +12,11 @@ public class TypeCasting {
 		 //narrowing
 		 float c=98.78f;
 		 int d=(int)c;
-		 System.out.println(c);
-		 System.out.println(d);
+		 char ch='A';
+		 int ab=(int)ch;
+		 System.out.println(ab);
+//		 System.out.println(c);
+//		 System.out.println(d);
 
 	}
 
