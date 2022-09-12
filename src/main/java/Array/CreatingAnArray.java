@@ -6,7 +6,7 @@ public class CreatingAnArray {
 
 	public static void main(String[] args) 
 	{
-		int a1=10;
+		
 		int[] a= {112,23,46,787,78};//one method-creation
 		
 		String[] name=new String[10];//size fixing format
