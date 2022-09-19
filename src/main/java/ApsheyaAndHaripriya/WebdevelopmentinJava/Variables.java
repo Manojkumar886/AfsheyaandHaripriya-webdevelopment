@@ -4,9 +4,11 @@ public class Variables
 {
 	static String name="Manojkumar";//Static variable
 	
-	
+	int a=10;
+	int b=100;
 	public void task()
 	{
+		System.out.println(a+b);//Global Variables
 		char class1='A';///local variable
 		System.out.println(class1);
 	}

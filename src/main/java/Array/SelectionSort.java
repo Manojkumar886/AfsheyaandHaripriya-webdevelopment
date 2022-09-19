@@ -3,17 +3,17 @@ package Array;
 import java.util.Arrays;
 
 public class SelectionSort {
-	public void selectionsort(int[] arr1)
+	public void selectionsort(int[] hari)
 	{
-		for(int i=0;i<arr1.length;i++)
+		for(int i=0;i<hari.length;i++)
 		{
-			for(int j=0;j<arr1.length;j++)
+			for(int j=0;j<hari.length;j++)
 			{
-				if(arr1[i]<arr1[j])
+				if(hari[i]<hari[j])
 				{
-					arr1[i]^=arr1[j];
-					arr1[j]^=arr1[i];
-					arr1[i]^=arr1[j];
+					hari[i]^=hari[j];
+					hari[j]^=hari[i];
+					hari[i]^=hari[j];
 				}
 			}
 		}
