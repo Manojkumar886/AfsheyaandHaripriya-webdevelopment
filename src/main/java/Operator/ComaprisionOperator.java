@@ -12,7 +12,7 @@ public class ComaprisionOperator {
 		System.out.println(height!=weight);
 		System.out.println(height!=weight);
 		System.out.println(a==b);
-		System.out.println(height<weight);
+		System.out.println(height<=weight);
 		
 		
 	}

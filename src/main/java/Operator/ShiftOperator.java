@@ -6,8 +6,8 @@ public class ShiftOperator {
 	{
 		int a=10;
 		int b=5;
-		System.out.println(a>>b);//right shift---/
-		System.out.println(a<<b);//left shift----*
+		System.out.println(a>>b);//right shift---/  a/2^b
+		System.out.println(a<<b);//left shift----*   a*2^b
 	}
 
 }

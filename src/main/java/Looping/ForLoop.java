@@ -20,15 +20,17 @@ public class ForLoop {
 //			System.out.println("Apsheya and haripriya"+a);
 //			a+=10;
 //		}
-		int a=15;
-		do
-		{
-			System.out.println("i am Manoj");
-			a++;
-		}
-		while(a<=100);
+//		int a=15;
+//		do
+//		{
+//			System.out.println("i am Manoj");
+//			a++;
+//		}
+//		while(a<=100);
 		
-
+		for(int i=10;i>=1;i--)
+		{
+			System.out.println(i);
+		}
 	}
-
 }
