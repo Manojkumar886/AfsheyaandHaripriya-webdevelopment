@@ -10,7 +10,7 @@ public class BubbleSort {
 		{
 			for(int j=0;j<lvalue-i-1;j++)
 			{
-				if(arr1[j]<arr1[j+1])
+				if(arr1[j]>arr1[j+1])
 				{
 					int  swap=arr1[j];
 					arr1[j]=arr1[j+1];
@@ -22,7 +22,7 @@ public class BubbleSort {
 
 	public static void main(String[] args) 
 	{
-	int [] arr= {12,45,67,57,18,21,43,12};
+	int [] arr= {6,5,3,1,4,58,6};
 	System.out.println(Arrays.toString(arr));
 	BubbleSort sort=new BubbleSort();
 	sort.bubble(arr);
